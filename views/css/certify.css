@@ -1,0 +1,91 @@
+@charset "utf-8";
+/* CSS Document */
+html{position: fixed; overflow: hidden;}
+body{position: fixed;
+    width: 1920px !important;
+    height: 1080px !important;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto; background-color: black;  overflow: hidden;}
+#certify {
+	position: relative;
+	width: 1920px;
+	height: 1080px;
+	margin: 0 auto
+}
+.imgmake{
+	position: absolute;
+    top: -100px;
+    width: 100%;
+    z-index: -1;
+    transform: scale(0.76);}
+#certify .swiper-container {
+	padding-bottom: 0px;
+}
+
+#certify  .swiper-slide {
+	width: 520px;
+	height: auto;
+
+}
+#certify  .swiper-slide img{
+	display:block;
+	margin: auto;
+}
+#certify  .swiper-slide p {
+	line-height: 98px;
+	padding-top: 0;
+	text-align: center;
+	color: #636363;
+	font-size: 1.1em;
+	margin: 0;
+}
+
+#certify .swiper-pagination {
+	width: 100%;
+	bottom: 20px;
+}
+
+#certify .swiper-pagination-bullets .swiper-pagination-bullet {
+	margin: 0 5px;
+	border: 3px solid #fff;
+	background-color: #d5d5d5;
+	width: 10px;
+	height: 10px;
+	opacity: 1;
+}
+
+#certify .swiper-pagination-bullets .swiper-pagination-bullet-active {
+	border: 3px solid #00aadc;
+	background-color: #fff;
+}
+
+#certify .swiper-button-prev {
+	left: -30px;
+	width: 45px;
+	height: 45px;
+	background: url(../images/wm_button_icon.png) no-repeat;
+	background-position: 0 0;
+	background-size: 100%;
+}
+
+#certify .swiper-button-prev:hover {
+	background-position: 0 -46px;
+	background-size: 100%
+}
+
+#certify .swiper-button-next {
+	right: -30px;
+	width: 45px;
+	height: 45px;
+	background: url(../images/wm_button_icon.png) no-repeat;
+	background-position: 0 -93px;
+	background-size: 100%;
+}
+
+#certify .swiper-button-next:hover {
+	background-position: 0 -139px;
+	background-size: 100%
+}

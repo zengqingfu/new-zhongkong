@@ -1,0 +1,186 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no,minimal-ui">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-title" content="保利工法展厅">
+<meta name="apple-touch-fullscreen" content="yes" />	
+<title>保利工法展厅</title>
+<link rel="apple-touch-icon-precomposed" sizes="128x128" href="img/faviconApp.png">
+<link rel="shortcut icon" href="img/favicon.png" />
+<link rel="bookmark" href="img/favicon.png" />
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/myStyle.css" rel="stylesheet">
+</head>
+<style>
+	.tjgf .centerBox img{width: 15%; margin: 0% 3% 3% 3%;}
+</style>
+<body>
+	<audio id="cli">
+		<source src="sound/click.mp3" type="audio/mpeg">
+    </audio>
+	<div class="topBox" style="display:block;">
+		<img src="images/01-底图/logo.png" alt=""/>
+	</div>
+    <div class="container conBox indexCon" style="display:block;">
+    	<div class="row centerBox text-center indexX">
+			<img src="images/03-首页/Bitmap 12.png" next="xuting" alt=""/>
+			<img src="images/03-首页/Bitmap 13.png" next="tjgf" alt=""/>
+        </div>
+        <div class="row bottomBox">
+            <img src="img/home/Bitmap 15.png" class="computeBtn" width="10%"  alt=""/> 
+			<img src="img/home/Bitmap 16.png" class="volumeBtn" next="ylkz" width="10%"  alt=""/> 
+    	</div>
+    </div>
+	
+    <div class="container conBox computeLogna"  style="display:none;">
+    	<div class="row centerBox text-center">
+			<div class="col-md-3"></div>
+			<div class="col-md-6">
+            	<div class="form-group">
+                	<p style="color:#fff;" class="text-left computeLogna">请输入设备管理密码</p>
+                	<input type="Password" class="form-control computeLogna" id="Password" style="height:10%;border:1px solid #0099ff;" placeholder="">
+            	</div>   
+                <span style="color:#f00; float:left; display:none">密码错误请重新输入</span> 
+                <button type="button" class="btn btn-default pull-right computeLogna" id="button" style="margin-top:20px; background-color:#8aa4bb; color:#fff; border:1px solid #016798;">确定</button>            
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+        <div class="row bottomBox ctrlBox">
+            <img src="img/common/Bitmap 24.png"  class="pull-right" alt=""/> 
+    	</div>
+    </div>
+    <div class="container conBox computeCtrl"  style="display:none;">
+		<!--<img src="img/comp/Bitmap 16.png" style="margin:2% auto 20px auto; display: block;" alt=""/>-->
+    	<div class="centerBox text-center">
+			<div class="compBox">
+            	<img src="images/04-电脑/Bitmap 17.png"  alt=""/>
+                <p style=" margin-top:10px;"><img src="img/comp/Bitmap 99.png" cmd="@201%26O%23" alt=""/> <img src="img/comp/Bitmap 100.png" cmd="@201%26C%23" alt=""/></p>
+			</div>
+			<div class="compBox">
+				<img src="images/04-电脑/Bitmap 18.png"  alt=""/>
+			    <p style=" margin-top:10px;"><img src="img/comp/Bitmap 99.png" cmd="@202%26O%23" alt=""/> <img src="img/comp/Bitmap 100.png" cmd="@202%26C%23" alt=""/></p>
+			</div>
+			<div class="compBox">
+				<img src="images/04-电脑/Bitmap 19.png"  alt=""/>
+			    <p style=" margin-top:10px;"><img src="img/comp/Bitmap 99.png" cmd="DIMIANKAI" alt=""/> <img src="img/comp/Bitmap 100.png" cmd="DIMIANGUAN" alt=""/></p>
+			</div>
+			<div class="compBox">
+				<img src="images/04-电脑/Bitmap 124.png"  alt=""/>
+			    <p style=" margin-top:10px;"><img src="img/comp/Bitmap 99.png" cmd="@201%26*O%23" alt=""/> <img src="img/comp/Bitmap 100.png" cmd="@201%26*C%23" alt=""/></p>
+			</div>
+		</div>	
+        <div class="row bottomBox ctrlBox text-center indexX" >
+            <img src="img/comp/AllOn.png" class="long-btn" cmd="ALLON"  alt=""/> 
+            <img src="img/comp/AllOff.png" class="long-btn" cmd="ALLOFF"  alt=""/> 
+            <img src="img/comp/Return.png" class="pull-right" alt=""/> 
+    	</div>
+    </div>
+	
+	<div class="container conBox xuting"  style="display:none;">
+		<div class="text-center titleBox">
+			<img src="images/06-序厅/Bitmap 32.png"  alt=""/>
+		</div>
+		<div class="row centerBox text-center indexX">
+			<img src="images/06-序厅/Bitmap 33.png" cmd="122&play" alt="多个命令"/>
+			<img src="images/06-序厅/Bitmap 34.png" cmd="122&5~" alt="自定义命令"/>
+			<img src="images/06-序厅/Bitmap 33.png" cmd="122&1-2" alt="arena 5整例"/>
+			<img src="images/06-序厅/Bitmap 34.png" cmd="122&pause" alt="自定义命令"/>
+			<img src="images/06-序厅/Bitmap 34.png" cmd="122&play" alt="arena 2行3例"/>
+			<img src="images/06-序厅/Bitmap 33.png" cmd="122&replay" alt="重播"/>
+			<img src="images/06-序厅/Bitmap 34.png" cmd="all&off" alt="关机"/>
+			<img src="images/06-序厅/Bitmap 34.png" cmd="122&replay" alt="重播"/> 
+			<img src="images/06-序厅/Bitmap 34.png" cmd="26&play" alt="播放"/>
+			<img src="images/06-序厅/Bitmap 34.png" cmd="26&pause" alt="暂停"/>
+			<img src="images/06-序厅/Bitmap 34.png" cmd="26&down" alt="减音量"/>
+			<img src="images/06-序厅/Bitmap 34.png" cmd="26&up" alt="加音量"/>
+			<img src="images/06-序厅/Bitmap 34.png" cmd="all&mute" alt="静音"/>
+			<img src="images/06-序厅/Bitmap 34.png" cmd="all&restart" alt="重启"/>
+	    </div>
+	    <div class="row bottomBox ctrlBox ajaxInput">
+	        <img src="img/common/Bitmap 19.png" cmd="@202%26U%23" alt=""/>
+	        <img src="img/common/Bitmap 20.png" cmd="@202%26D%23" alt=""/> 
+			<img src="img/common/Bitmap 18.png" cmd="@202%26V%23" alt=""/>
+			<img src="img/common/Bitmap 21.png" cmd="@202%26P%23" alt=""/>
+			<img src="img/common/Bitmap 22.png" cmd="@202%26S%23" alt=""/> 
+			<img src="img/common/Bitmap 23.png" cmd="@202%26R%23" alt=""/>
+	        <img src="img/common/Bitmap 24.png"  class="pull-right" alt=""/> 
+		</div>
+	</div>
+	
+	<div class="container conBox tjgf"  style="display:none;">
+		<div class="text-center titleBox">
+			<img src="images/07-土建工法区/Bitmap 35.png" alt=""/>
+		</div>
+		<div class="row centerBox text-center ajaxInput">
+			<img src="images/07-土建工法区/Bitmap 36.png" cmd="@203%261%23" alt=""/>
+			<img src="images/07-土建工法区/Bitmap 37.png" cmd="@203%262%23" alt=""/>
+			<img src="images/07-土建工法区/Bitmap 38.png" cmd="@203%263%23" alt=""/>
+			<img src="images/07-土建工法区/Bitmap 39.png" cmd="@203%264%23" alt=""/>
+			<img src="images/07-土建工法区/Bitmap 40.png" cmd="@203%265%23" alt=""/>
+			<img src="images/07-土建工法区/Bitmap 41.png" cmd="@203%266%23" alt=""/>
+			<img src="images/07-土建工法区/Bitmap 42.png" cmd="@203%267%23" alt=""/>
+			<img src="images/07-土建工法区/Bitmap 43.png" cmd="@203%268%23" alt=""/>
+
+	    </div>
+	    <div class="row bottomBox ctrlBox ajaxInput">
+			<img src="img/common/Bitmap 19.png" cmd="@203%26U%23" alt=""/>
+			<img src="img/common/Bitmap 20.png" cmd="@203%26D%23" alt=""/> 
+			<img src="img/common/Bitmap 18.png" cmd="@203%26V%23" alt=""/>
+			<img src="img/common/Bitmap 21.png" cmd="@203%26P%23" alt=""/>
+			<img src="img/common/Bitmap 22.png" cmd="@203%26S%23" alt=""/> 
+			<img src="img/common/Bitmap 23.png" cmd="@203%26R%23" alt=""/>
+	        <img src="img/common/Bitmap 24.png"  class="pull-right" alt=""/> 
+		</div>
+	</div>
+	
+	<div class="container conBox yys"  style="display:none;">
+		<div class="text-center titleBox">
+			<img src="img/yys/Bitmap 26.png" alt=""/>
+		</div>
+		<div class="row centerBox text-center ajaxInput">
+			<img src="img/yys/Bitmap 23.png" cmd="@203%261%23" alt=""/>
+			<img src="img/yys/Bitmap 24.png" cmd="@203%262%23" alt=""/>
+			<img src="img/yys/Bitmap 20.png" cmd="LON" alt=""/>
+			<img src="img/yys/Bitmap 21.png" cmd="LOFF" alt=""/>
+	    </div>
+	    <div class="row bottomBox ctrlBox ajaxInput">
+			<img src="img/common/Bitmap 19.png" cmd="@203%26U%23" alt=""/>
+			<img src="img/common/Bitmap 20.png" cmd="@203%26D%23" alt=""/> 
+			<img src="img/common/Bitmap 18.png" cmd="@203%26V%23" alt=""/>
+			<img src="img/common/Bitmap 21.png" cmd="@203%26P%23" alt=""/>
+			<img src="img/common/Bitmap 22.png" cmd="@203%26S%23" alt=""/> 
+			<img src="img/common/Bitmap 23.png" cmd="@203%26R%23" alt=""/>
+	        <img src="img/common/Bitmap 24.png"  class="pull-right" alt=""/> 
+		</div>
+	</div>
+	
+	<div class="container conBox ylkz"  style="display:none;">
+		<div class="text-center titleBox">
+			<!--img src="img/ylkz/Bitmap 65.png"  alt=""/-->
+		</div>
+		<div class="centerBox text-center">
+			<div class="compBox">
+	        	<img src="images/05-音量/Bitmap 24.png"  alt=""/>
+	            <p style=" margin-top:10px;"><img src="img/ylkz/Bitmap 34.png" cmd="@201%26M%23" alt=""/><img src="img/ylkz/Bitmap 32.png" cmd="@201%26U%23" alt=""/><img src="img/ylkz/Bitmap 33.png" cmd="@201%26D%23" alt=""/></p>
+			</div>
+			<div class="compBox">
+				<img src="images/05-音量/Bitmap 25.png"  alt=""/>
+			    <p style=" margin-top:10px;"><img src="img/ylkz/Bitmap 34.png" cmd="@202%26M%23" alt=""/><img src="img/ylkz/Bitmap 32.png" cmd="@202%26U%23" alt=""/><img src="img/ylkz/Bitmap 33.png" cmd="@202%26D%23" alt=""/></p>
+			</div>
+			<div class="compBox">
+				<img src="images/05-音量/Bitmap 26.png"  alt=""/>
+			    <p style=" margin-top:10px;"><img src="img/ylkz/Bitmap 34.png" cmd="@203%26M%23" alt=""/><img src="img/ylkz/Bitmap 32.png" cmd="@203%26U%23" alt=""/><img src="img/ylkz/Bitmap 33.png" cmd="@203%26D%23" alt=""/></p>
+			</div>
+		</div>
+	    <div class="row bottomBox ctrlBox ajaxInput"> 
+	        <img src="img/common/Bitmap 24.png"  class="pull-right" alt=""/> 
+		</div>
+	</div>
+<script src="js/jquery-1.11.3.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script src="js/myJs.js"></script>
+</body>
+</html>

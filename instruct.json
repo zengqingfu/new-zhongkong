@@ -1,0 +1,9 @@
+{
+    "instruct":{
+        "play":{"text":"组合命令","setip":"192.168.111.26","port":"7858","class":"udp","content":"204&5,204&5-3,204&5-4,204&C,204&O,arena1"},
+        "pause":{"text":"组合命令1","setip":"192.168.111.26","port":"7858","class":"udp","content":"204&5,204&5-3,204&5-4,204&C,204&O,arena2"},
+        "arena2":{"text":"组合命令2","setip":"192.168.111.26","port":"7858","class":"udp","content":"204&5,204&5-3,204&5-4,204&C,204&O,jidianqi"},
+        "jidianqi":{"text":"继电器控灯","setip":"192.168.111.81","port":"3000","class":"buf","content":"55 01 15 00 00 0C 00 77"}, 
+        "jidianqi2":{"text":"继电器控灯","setip":"192.168.111.209","port":"7858","content":""}
+    }
+}
