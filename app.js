@@ -224,9 +224,9 @@ function soundfn(ip,content) {
     if (!loadjson.macip[ip]) {
         return
     }
-    if (content == 'up') {
+    if (content == 'up' && loadjson.macip[ip].volume != 100) {
         loadjson.macip[ip].volume +=10
-    } else if (content == 'down') {
+    } else if (content == 'down' && loadjson.macip[ip].volume != 0) {
         loadjson.macip[ip].volume -=10
     } else if (content == 'mute') {
         loadjson.macip[ip].volume =0
@@ -257,13 +257,17 @@ app.use('/ctrl', function (req, res, next) {
     req.on("end", () => {
         // console.log(result)
         infoplay(result)
-        res.end('OK')
+        res.json('OK')
     })
 });
 
-app.get('/volume', (req, res) => { // 接收udp命令
+app.get('/volume', (req, res) => {
     // console.log(req)
     res.json(loadjson.macip);
+});
+
+app.get('/jsondata', (req, res) => {
+    res.json(loadjson);
 });
 
 app.use(express.static('dist'));

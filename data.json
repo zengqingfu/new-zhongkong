@@ -38,51 +38,76 @@
         }
     },
     "macip":{
-        "201":{"mac":"00:E0:70:BB:0F:38","volume":40,"src":"url"},
-        "203":{"mac":"00:E0:70:BB:0F:38","volume":40,"src":"url"},
-        "204":{"mac":"00:E0:70:BB:0F:38","volume":40,"src":"url"},
-        "205":{"mac":"00:E0:70:BB:0F:38","volume":40,"src":"url"},
-        "26":{"mac":"00:E0:70:BB:0F:38","volume":40,"src":"url"},
-        "122":{"mac":"00:E0:70:BB:0F:38","volume":40,"src":"url"}
+        "201":{"mac":"00:E0:70:BB:0F:38","volume":40,"src":"images/04-电脑/Bitmap 17.png","computename":"这台机的名字叫做1"},
+        "203":{"mac":"00:E0:70:BB:0F:38","volume":40,"src":"images/04-电脑/Bitmap 18.png","computename":"这台机的名字叫做2"},
+        "204":{"mac":"00:E0:70:BB:0F:38","volume":40,"src":"images/04-电脑/Bitmap 19.png","computename":"这台机的名字叫做3"},
+        "205":{"mac":"00:E0:70:BB:0F:38","volume":40,"src":"images/04-电脑/Bitmap 17.png","computename":"这台机的名字叫做4"},
+        "26":{"mac":"00:E0:70:BB:0F:38","volume":40,"src":"images/04-电脑/Bitmap 18.png","computename":"这台机的名字叫做5"},
+        "122":{"mac":"00:E0:70:BB:0F:38","volume":40,"src":"images/04-电脑/Bitmap 19.png","computename":"这台机的名字叫做6"}
     },
     "accounts":{"password":"123456","txt":"密码"},
     "mainui":{
-        "logo":{"url":"src","width":"100","height":"100","top":"100","left":"100"},
+        "logo":{"url":"images/01-底图/logo.png","width":"100","height":"100","top":"100","left":"100"},
+        "iconimg":{"url":"img/faviconApp.png","width":"100","height":"100","top":"100","left":"100"},
+        "btnsound":{"url":"sound/click.mp3","width":"100","height":"100","top":"100","left":"100"},
         "backgound":{"url":"src","top":"100","left":"100"},
+        "mainbottom":{
+            "btn1":{"src":"img/home/Bitmap 15.png","class":"","text":"按钮名称","id":"","postcontent":"","attr":"","width":"","height":"","menu":"nemusub1"},
+            "btn2":{"src":"img/home/Bitmap 16.png","class":"","text":"按钮名称","id":"","postcontent":"","attr":"","width":"","height":"","menu":"nemusub3"}
+        },
         "mainbtn":{
-            "btn1":{"src":"url","class":"url","text":"url","id":"url","postcontent":"url","attr":"url","width":"url","height":"url","menu":"nemusub1"},
-            "btn2":{"src":"url","class":"url","text":"url","id":"url","postcontent":"url","attr":"url","width":"url","height":"url","menu":"nemusub3"},
-            "btn3":{"src":"url","class":"url","text":"url","id":"url","postcontent":"url","attr":"url","width":"url","height":"url"},
-            "btn4":{"src":"url","class":"url","text":"url","id":"url","postcontent":"url","attr":"url","width":"url","height":"url"},
-            "btn5":{"src":"url","class":"url","text":"url","id":"url","postcontent":"url","attr":"url","width":"url","height":"url"}
+            "btn1":{"src":"images/03-首页/Bitmap 12.png","class":"btn","text":"按钮名称","id":"","postcontent":"","attr":"","width":"","height":"","menu":"nemusub1"},
+            "btn2":{"src":"images/03-首页/Bitmap 13.png","class":"btn","text":"按钮名称","id":"","postcontent":"","attr":"","width":"","height":"","menu":"nemusub2"},
+            "btn3":{"src":"images/03-首页/Bitmap 12.png","class":"btn","text":"按钮名称","id":"","postcontent":"","attr":"","width":"","height":"","menu":"nemusub3"},
+            "btn4":{"src":"images/03-首页/Bitmap 13.png","class":"btn","text":"按钮名称","id":"","postcontent":"","attr":"","width":"","height":"","menu":"nemusub4"},
+            "btn5":{"src":"images/03-首页/Bitmap 12.png","class":"exit","text":"按钮名称","id":"","postcontent":"","attr":"","width":"","height":"","menu":"nemu"}
         },
-        "nemusub1":{
-            "btn1":{"src":"url","class":"btn","text":"url","id":"url","postcontent":"url","attr":"url","width":"url","height":"url","menu":"nemusub2"},
-            "btn2":{"src":"url","class":"btn","text":"url","id":"url","postcontent":"url","attr":"url","width":"url","height":"url","menu":"nemusub3"},
-            "btn3":{"src":"url","class":"btn","text":"url","id":"url","postcontent":"url","attr":"url","width":"url","height":"url"},
-            "btn4":{"src":"url","class":"btn","text":"url","id":"url","postcontent":"url","attr":"url","width":"url","height":"url"},
-            "btn5":{"src":"url","class":"exit","text":"url","id":"url","postcontent":"url","attr":"url","width":"url","height":"url","menu":"nemu"}
-        },
-        "nemusub2":{
-            "btn1":{"src":"url","class":"btn","text":"url","id":"url","postcontent":"url","attr":"url","width":"url","height":"url","menu":"nemusub2"},
-            "btn2":{"src":"url","class":"btn","text":"url","id":"url","postcontent":"url","attr":"url","width":"url","height":"url","menu":"nemusub3"},
-            "btn3":{"src":"url","class":"btn","text":"url","id":"url","postcontent":"url","attr":"url","width":"url","height":"url"},
-            "btn4":{"src":"url","class":"btn","text":"url","id":"url","postcontent":"url","attr":"url","width":"url","height":"url"},
-            "btn5":{"src":"url","class":"exit","text":"url","id":"url","postcontent":"url","attr":"url","width":"url","height":"url","menu":"nemu"}
-        },
-        "nemusub3":{
-            "btn1":{"src":"url","class":"btn","text":"url","id":"url","postcontent":"url","attr":"url","width":"url","height":"url","menu":"nemusub2"},
-            "btn2":{"src":"url","class":"btn","text":"url","id":"url","postcontent":"url","attr":"url","width":"url","height":"url","menu":"nemusub3"},
-            "btn3":{"src":"url","class":"btn","text":"url","id":"url","postcontent":"url","attr":"url","width":"url","height":"url"},
-            "btn4":{"src":"url","class":"btn","text":"url","id":"url","postcontent":"url","attr":"url","width":"url","height":"url"},
-            "btn5":{"src":"url","class":"exit","text":"url","id":"url","postcontent":"url","attr":"url","width":"url","height":"url","menu":"nemu"}
-        },
-        "nemusub4":{
-            "btn1":{"src":"url","class":"btn","text":"url","id":"url","postcontent":"url","attr":"url","width":"url","height":"url","menu":"nemusub2"},
-            "btn2":{"src":"url","class":"btn","text":"url","id":"url","postcontent":"url","attr":"url","width":"url","height":"url","menu":"nemusub3"},
-            "btn3":{"src":"url","class":"btn","text":"url","id":"url","postcontent":"url","attr":"url","width":"url","height":"url"},
-            "btn4":{"src":"url","class":"btn","text":"url","id":"url","postcontent":"url","attr":"url","width":"url","height":"url"},
-            "btn5":{"src":"url","class":"exit","text":"url","id":"url","postcontent":"url","attr":"url","width":"url","height":"url","menu":"nemu"}
+        "btnui":{
+            "nemusub1":{
+                "title":{"src":"images/06-序厅/Bitmap 32.png","class":"","text":"按钮名称","id":"","postcontent":"","attr":"","width":"","height":""},
+                "btnsub":{
+                    "btn1":{"src":"images/03-首页/Bitmap 12.png","class":"","text":"按钮名称","id":"","postcontent":"204&aply","attr":"","width":"","height":""},
+                    "btn2":{"src":"images/03-首页/Bitmap 13.png","class":"","text":"按钮名称","id":"","postcontent":"204&up","attr":"","width":"","height":""},
+                    "btn3":{"src":"images/03-首页/Bitmap 12.png","class":"","text":"按钮名称","id":"","postcontent":"204&down","attr":"","width":"","height":""},
+                    "btn4":{"src":"images/03-首页/Bitmap 12.png","class":"","text":"按钮名称","id":"","postcontent":"204&pause","attr":"","width":"","height":""},
+                    "btn5":{"src":"images/03-首页/Bitmap 13.png","class":"","text":"按钮名称","id":"","postcontent":"204&replay","attr":"","width":"","height":""},
+                    "btn6":{"src":"images/03-首页/Bitmap 12.png","class":"","text":"按钮名称","id":"","postcontent":"arena1","attr":"","width":"","height":""},
+                    "btn7":{"src":"images/03-首页/Bitmap 12.png","class":"","text":"按钮名称","id":"","postcontent":"204&off","attr":"","width":"","height":""},
+                    "btn8":{"src":"images/03-首页/Bitmap 13.png","class":"","text":"按钮名称","id":"","postcontent":"204&on","attr":"","width":"","height":""},
+                    "btn9":{"src":"images/03-首页/Bitmap 12.png","class":"","text":"按钮名称","id":"","postcontent":"204&mute","attr":"","width":"","height":""}
+                },
+                "exitbtn":{"src":"images/06-序厅/Bitmap 32.png","class":"","text":"按钮名称","id":"","postcontent":"","attr":"","width":"","height":""}
+            },
+            "nemusub2":{
+                "title":{"src":"images/06-序厅/Bitmap 32.png","class":"","text":"按钮名称","id":"","postcontent":"","attr":"","width":"","height":""},
+                "btnsub":{
+                    "btn1":{"src":"images/03-首页/Bitmap 12.png","class":"","text":"按钮名称","id":"","postcontent":"204&5~","attr":"","width":"","height":"","menu":"nemusub1"},
+                    "btn2":{"src":"images/03-首页/Bitmap 13.png","class":"","text":"按钮名称","id":"","postcontent":"204&3-2","attr":"","width":"","height":"","menu":"nemusub3"},
+                    "btn3":{"src":"images/03-首页/Bitmap 12.png","class":"","text":"按钮名称","id":"","postcontent":"all&5~","attr":"","width":"","height":""},
+                    "btn4":{"src":"images/03-首页/Bitmap 13.png","class":"","text":"按钮名称","id":"","postcontent":"all&off","attr":"","width":"","height":""}
+                },
+                "exitbtn":{"src":"images/06-序厅/Bitmap 32.png","class":"","text":"按钮名称","id":"","postcontent":"","attr":"","width":"","height":""}
+            },
+            "nemusub3":{
+                "title":{"src":"images/06-序厅/Bitmap 32.png","class":"","text":"按钮名称","id":"","postcontent":"","attr":"","width":"","height":""},
+                "btnsub":{
+                    "btn1":{"src":"images/03-首页/Bitmap 12.png","class":"","text":"按钮名称","id":"","postcontent":"","attr":"","width":"","height":"","menu":"nemusub1"},
+                    "btn2":{"src":"images/03-首页/Bitmap 13.png","class":"","text":"按钮名称","id":"","postcontent":"","attr":"","width":"","height":"","menu":"nemusub3"},
+                    "btn3":{"src":"images/03-首页/Bitmap 12.png","class":"","text":"按钮名称","id":"","postcontent":"","attr":"","width":"","height":""},
+                    "btn4":{"src":"images/03-首页/Bitmap 13.png","class":"","text":"按钮名称","id":"","postcontent":"","attr":"","width":"","height":""}
+                },
+                "exitbtn":{"src":"images/06-序厅/Bitmap 32.png","class":"","text":"按钮名称","id":"","postcontent":"","attr":"","width":"","height":""}
+            },
+            "nemusub4":{
+                "title":{"src":"images/06-序厅/Bitmap 32.png","class":"","text":"按钮名称","id":"","postcontent":"","attr":"","width":"","height":""},
+                "btnsub":{
+                    "btn1":{"src":"images/03-首页/Bitmap 12.png","class":"","text":"按钮名称","id":"","postcontent":"","attr":"","width":"","height":"","menu":"nemusub1"},
+                    "btn2":{"src":"images/03-首页/Bitmap 13.png","class":"","text":"按钮名称","id":"","postcontent":"","attr":"","width":"","height":"","menu":"nemusub3"},
+                    "btn3":{"src":"images/03-首页/Bitmap 12.png","class":"","text":"按钮名称","id":"","postcontent":"","attr":"","width":"","height":""},
+                    "btn4":{"src":"images/03-首页/Bitmap 13.png","class":"","text":"按钮名称","id":"","postcontent":"","attr":"","width":"","height":""}
+                },
+                "exitbtn":{"src":"images/06-序厅/Bitmap 32.png","class":"","text":"按钮名称","id":"","postcontent":"","attr":"","width":"","height":""}
+            }
         }
     }
 }

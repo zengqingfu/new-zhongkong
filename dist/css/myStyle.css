@@ -1,37 +1,61 @@
 html,body{height:100%; width:100%; overflow:hidden; background:url(../img/bg.jpg) no-repeat center center; background-size:100% 100% ;}
-.topBox{ margin: 0% 7% 0% 7%;}
-.topBox img{ width:30%; margin-top: 10%;}
+.topBox{     position: fixed;
+    left: 5%;
+    top: 5%;}
+.topBox img{max-width: 200px;}
 .conBox{ height:90%; width:100%; margin-top:2%;padding:0px; }
-.centerBox{ width:85%; height:50%; margin:auto; }
-.centerBox img{width: 15%; margin:0 0%; }
-.bottomBox{ width:88%; height:20%; margin:auto; }
-.indexCon .centerBox img{width: 25%; margin:4% 1%; }
-.indexCon .bottomBox{ margin-left:10%;}
+.centerBox{     width: 90%;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);}
+.centerBox img{    width: 25%;
+    margin: 1%;
+    max-width: 150px;}
+.bottomBox{     width: 88%;
+    height: auto;
+    margin: auto;
+    position: fixed;
+    bottom: 5px;
+    left: 50%;
+    transform: translate(-50%, -20%);}
+.indexCon .centerBox img{    width: 25%;margin:1%;max-width: 150px;}
+.indexCon .bottomBox{ margin-left:0%;}
 .fzlc .centerBox img{width: 25%; margin:0% 1%;}
 .blyd .centerBox img{width: 25%; margin:0% 1%;}
 .yys .centerBox img{width: 22%; margin:0% 1%;}
 
+
+.titleBox{
+	text-align: center;
+    position: fixed;
+    left: 50%;
+    top: 10%;
+    width: 100%;
+    transform: translate(-50%, 0);}
 .ctrlBox {margin-top:-2%;}
-.ctrlBox img{width:9.76%; margin-right:10px;}
+.ctrlBox img{width: auto;margin-right: 10px;max-height: 75px;}
 .computeLogna{font-size:1.5em}
 .computeLogna .col-md-6{margin: 2% auto;}
-.computeCtrl .compBox{float: left; width:30%; margin: 0% 1.6667% 0% 1.6667%;}
+.computeCtrl .compBox{float: left; width:30%; margin: 0% 1.6667% 0% 1.6667%;max-width: 150px;}
 .computeCtrl .compBox>img{width:100%}
 .computeCtrl .compBox>p>img{ width:44%; margin:2% 1%}
 .computeCtrl .centerBox{width: 70%; height:40%; margin: 5% auto;}
-.ylkz .compBox{float: left; width:30%; margin: 0% 1.6667% 0% 1.6667%;}
+.ylkz .compBox{ display: inline-block;width: 30%;margin: 15px 5px;max-width: 150px;}
 .ylkz .compBox>img{width:100%}
 .ylkz .compBox>p>img{ width:30%; margin:2% 1%}
-.ylkz .centerBox{width: 70%; height:40%; margin: 2% auto;}
+.ylkz .centerBox{width: 96%;height: 40%;text-align: center;}
 .ylkz .ctrlBox {margin-top:5%;}
 .ylkz p img:active, .computeCtrl p img:active, .ajaxInput img:active, .indexX img:active, .indexCon .centerBox img:active { opacity:0.3;}
-.ctrlBox .pull-right{width:20%; margin-right:0px;}
+.ctrlBox .pull-right{width:auto; margin-right:0px;}
 .ctrlBox .long-btn{width:25%; margin-right:5%;}
-.titleBox img{ width:30%; margin-bottom: 5%;}
+.titleBox img{ width:30%; margin-bottom: 5%;    max-width: 250px;}
 
 @media (max-width: 640px) {
-	.topBox{ margin: 0% 7% 0% 7%; }
-	.topBox img{ width:30%; margin-top: 10%;}
+	.topBox{width: 100%;
+		left: 5%;
+		top: 2%;}
+	.topBox img{ max-width: 150px;}
 	.indexCon .bottomBox {margin-top: 10%;}
 	.indexCon .bottomBox .computeBtn{ width:15%;}
 	.indexCon .bottomBox .volumeBtn{ width:15%;}
@@ -40,7 +64,7 @@ html,body{height:100%; width:100%; overflow:hidden; background:url(../img/bg.jpg
 	.centerBox>img{width: 30% !important;}
 	.col-md-6{ width:80%; margin:auto;}
 	.ctrlBox {margin-top:10%;}
-	.ctrlBox img {margin-right: 4px;margin-top: 20px; height:40px; width:auto !important;}
+	.ctrlBox img {margin-right: 4px;margin-top: 20px; height:35px; width:auto !important;}
 	.ctrlBox .long-btn{height:auto; width:30% !important; margin-right:10px;}
 	.computeCtrl .compBox{float: left; width:30%; margin: 0% 1.6667% 0% 1.6667%;}
 	.computeCtrl .compBox>p>img {width: 40%; margin: 0% 2%;}
@@ -51,7 +75,6 @@ html,body{height:100%; width:100%; overflow:hidden; background:url(../img/bg.jpg
 	.ylkz .centerBox{width: 96%; height:36%; margin: 1% auto;}
 	.ylkz .ctrlBox {margin-top:-3%;}
 	.computeLogna{ font-size:1.2em;}
-	.bottomBox{ width:98%; height:20%; margin:auto;}
 }
 
 @media (max-width: 320px) {
